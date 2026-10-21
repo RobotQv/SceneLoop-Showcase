@@ -1,0 +1,132 @@
+{
+  "verified_at": "2026-09-16",
+  "brain": [
+    {
+      "provider_id": "deepseek",
+      "provider_label": "DeepSeek 官方",
+      "model_id": "deepseek-flash",
+      "label": "DeepSeek V4.1 Flash",
+      "base_url": "https://api.deepseek.com",
+      "capabilities": ["文字输入", "图片理解", "工具调用", "JSON 输出"],
+      "documentation_url": "https://api-docs.deepseek.com/",
+      "verification": "documented"
+    },
+    {
+      "provider_id": "zai",
+      "provider_label": "Z.ai 官方（智谱国内端点可自定义）",
+      "model_id": "glm-5.3-flash",
+      "label": "GLM-5.3-Flash",
+      "base_url": "https://api.z.ai/api/paas/v4",
+      "capabilities": ["文字输入", "图片理解", "工具调用", "结构化输出"],
+      "documentation_url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+      "verification": "documented"
+    },
+    {
+      "provider_id": "dashscope",
+      "provider_label": "阿里云百炼 · 北京（可修改地域）",
+      "model_id": "qwen3.8-flash",
+      "label": "Qwen3.8-Flash",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "capabilities": ["文字输入", "图片理解", "工具调用", "结构化输出"],
+      "documentation_url": "https://docs.modelstudio.console.alibabacloud.com/tc/model-studio/qwen3-8-flash",
+      "verification": "documented"
+    }
+  ],
+  "image": [
+    {
+      "provider_id": "zai",
+      "provider_label": "智谱 BigModel 官方 · 国内（可修改区域）",
+      "model_id": "glm-image",
+      "label": "GLM-Image",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "capabilities": ["文字生图", "图像输出"],
+      "documentation_url": "https://docs.bigmodel.cn/cn/guide/models/image-generation/glm-image",
+      "verification": "documented",
+      "verified_at": "2026-09-17"
+    },
+    {
+      "provider_id": "dashscope",
+      "provider_label": "阿里云百炼 · 北京（可修改地域）",
+      "model_id": "qwen-image-3.0",
+      "label": "Qwen Image 3.0",
+      "base_url": "https://dashscope.aliyuncs.com/api/v1",
+      "capabilities": ["文字生图", "图像输出"],
+      "documentation_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-generation-and-editing-api-reference",
+      "verification": "documented",
+      "verified_at": "2026-09-17"
+    },
+    {
+      "provider_id": "dashscope",
+      "provider_label": "阿里云百炼 · 北京（可修改地域）",
+      "model_id": "qwen-image-3.0-pro",
+      "label": "Qwen Image 3.0 Pro",
+      "base_url": "https://dashscope.aliyuncs.com/api/v1",
+      "capabilities": ["文字生图", "图像输出"],
+      "documentation_url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-generation-and-editing-api-reference",
+      "verification": "documented",
+      "verified_at": "2026-09-17"
+    },
+    {
+      "provider_id": "openai",
+      "provider_label": "OpenAI 官方 · 可选服务",
+      "model_id": "gpt-image-2.5-flare",
+      "label": "GPT Image 2.5 Flare",
+      "base_url": "https://api.openai.com/v1",
+      "capabilities": ["文字生图", "图像输入", "图像输出"],
+      "documentation_url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "verification": "documented"
+    },
+    {
+      "provider_id": "openai",
+      "provider_label": "OpenAI 官方 · 可选服务",
+      "model_id": "gpt-image-2.5-sunburst",
+      "label": "GPT Image 2.5 Sunburst",
+      "base_url": "https://api.openai.com/v1",
+      "capabilities": ["文字生图", "图像编辑", "图像输出"],
+      "documentation_url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "verification": "documented"
+    }
+  ],
+  "asset3d": [
+    {
+      "preset_id": "tripo-ai-v3.1",
+      "provider_id": "tripo",
+      "provider_label": "Tripo 国际站（.ai）",
+      "model_id": "v3.1-20260211",
+      "label": "Tripo v3.1 · 国际站（.ai）",
+      "base_url": "https://openapi.tripo3d.ai/v3",
+      "mode": "cloud_api",
+      "capabilities": ["文生 3D（仅几何）", "图生 3D（仅几何）"],
+      "documentation_url": "https://developers.tripo3d.ai/en/docs/generation-text-to-model/standard",
+      "verification": "documented",
+      "verified_at": "2026-10-10"
+    },
+    {
+      "preset_id": "tripo-com-v3.1",
+      "provider_id": "tripo",
+      "provider_label": "Tripo 国内站（.com）",
+      "model_id": "v3.1-20260211",
+      "label": "Tripo v3.1 · 国内站（.com）",
+      "base_url": "https://openapi.tripo3d.com/v3",
+      "mode": "cloud_api",
+      "capabilities": ["文生 3D（仅几何）", "图生 3D（仅几何）"],
+      "documentation_url": "https://developers.tripo3d.com/en/docs/generation-text-to-model/standard",
+      "verification": "documented",
+      "verified_at": "2026-10-10"
+    },
+    {
+      "preset_id": "hunyuan-local-2mini",
+      "provider_id": "hunyuan",
+      "provider_label": "Hunyuan 本地",
+      "model_id": "hunyuan3d-2mini",
+      "label": "Hunyuan2mini · 本地图生 shape",
+      "base_url": "",
+      "mode": "local_process",
+      "capabilities": [
+        "图生 3D（仅主体形状）"
+      ],
+      "verification": "unverified",
+      "verified_at": null
+    }
+  ]
+}
