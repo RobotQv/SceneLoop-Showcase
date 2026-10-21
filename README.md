@@ -2,9 +2,9 @@
 
 **面向真实 3D 场景创作的可替换模型 Agent Harness**：让通用大模型在受控、可观察、可回溯的流程中持续操作 Blender，而不只是输出一段建模脚本。
 
-![SceneLoop — 从结构到持续精修的概念插画](docs/scene-evolution.svg)
+![SceneLoop · 林地营地场景整体渲染](docs/showcase-camp.webp)
 
-> 上图为设计示意图，不是运行截图。真实施工与实验成果请参见参赛作品集及下方证据说明。
+> **真实 Blender 场景实验渲染 · Test4**：源于 SceneLoop 同源场景的外部 Agent Harness 后续精修实验。展示结果与 SceneLoop 原生 Builder 的运行证据分别标注，不将外部精修冒充原生自动生成。
 
 ### 不只是“让 AI 操作 Blender”
 
@@ -19,6 +19,12 @@ Codex 等通用 Agent 已可以持续维护工程、编写 Blender 脚本并自�
 一次 Test1 / Showcase-R3 实际运行记录了 **16 次 Builder 模型调用、23 次工具调用、3 次草稿编辑，并正式保存为 Working Version 4**。独立 Judge 在逐项检查中判定 **3/7 项通过，整体返回 `continue`**：它不仅指出已改善之处，也继续反馈屋面、地形、石雕及道具的可见不足。
 
 这展示了 **自主施工 + 独立反馈** 的工作方式，但不能据此声称所有场景均能无故障运行。当前原型的长流程交接与恢复仍有待持续修复。
+
+### 材质实验：可见的创作方法沉淀
+
+<img src="docs/showcase-wood.webp" alt="Test4 木制桌面材质使用痕迹的 Blender 渲染特写" width="720">
+
+> **真实 Blender 材质实验特写 · Test4**：木材顺纹、拼缝、磨损与水印来自外部 Harness 精修过程，用于展示跨模型/跨 Harness 方法沉淀；并非宣称这一材质由当前 SceneLoop 原生工作流直接完成。
 
 - [查看案例事实、来源区分与当前状态](docs/SHOWCASE_NOTES.md)
 - [独立材质方法库 realistic-materials-skill](https://github.com/RobotQv/realistic-materials-skill)
