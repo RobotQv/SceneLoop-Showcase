@@ -1,6 +1,27 @@
 # SceneLoop
 
-SceneLoop 是面向三维场景创作的 Agent 工作台。用户通过自然语言描述场景或修改目标，由 Director 理解需求、观察场景并安排任务，Builder 调用 Blender 施工，独立 Judge 根据真实场景证据给出反馈，支持继续修改与保存。
+**面向真实 3D 场景创作的可替换模型 Agent Harness**：让通用大模型在受控、可观察、可回溯的流程中持续操作 Blender，而不只是输出一段建模脚本。
+
+![SceneLoop — 从结构到持续精修的概念插画](docs/scene-evolution.svg)
+
+> 上图为设计示意图，不是运行截图。真实施工与实验成果请参见参赛作品集及下方证据说明。
+
+### 不只是“让 AI 操作 Blender”
+
+Codex 等通用 Agent 已可以持续维护工程、编写 Blender 脚本并自行组织工作流。SceneLoop 探索的差异是：**把三维创作中反复需要的场景状态、受控操作、真实渲染与几何证据、独立评价及版本回溯，沉淀为专用 Harness 的内建机制**，而不是每次重新搭建流程。
+
+系统将模型决策与 Blender 操作协议解耦，同时研究不同模型和 Harness 在建模、材质及精修方面的有效方法，让 Skill、程序化模板和工具资产能够跨任务复用。
+
+![SceneLoop Agent 架构概念图](docs/architecture.svg)
+
+### 有证据的实际进展
+
+一次 Test1 / Showcase-R3 实际运行记录了 **16 次 Builder 模型调用、23 次工具调用、3 次草稿编辑，并正式保存为 Working Version 4**。独立 Judge 在逐项检查中判定 **3/7 项通过，整体返回 `continue`**：它不仅指出已改善之处，也继续反馈屋面、地形、石雕及道具的可见不足。
+
+这展示了 **自主施工 + 独立反馈** 的工作方式，但不能据此声称所有场景均能无故障运行。当前原型的长流程交接与恢复仍有待持续修复。
+
+- [查看案例事实、来源区分与当前状态](docs/SHOWCASE_NOTES.md)
+- [独立材质方法库 realistic-materials-skill](https://github.com/RobotQv/realistic-materials-skill)
 
 ## 主要功能
 

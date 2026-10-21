@@ -1,0 +1,42 @@
+# Local credentials and project-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Local state, generated projects and private development history
+.sceneloop/
+**/.sceneloop/
+.team-projects/
+.agent-work/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Temporary output and development tooling
+node_modules/
+dist/
+build/
+*.log
+*.tmp
+*.bak
+*.blend1
+*.blend2
+.DS_Store
+Thumbs.db

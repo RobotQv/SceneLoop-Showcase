@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 620" role="img" aria-labelledby="title desc">
+<title id="title">SceneLoop — three-dimensional creation as an iterative craft</title>
+<desc id="desc">An original light-toned conceptual wireframe illustration: a timber shelter and pine trees gradually become a structured scene, alongside an observe-build-review feedback path. This is a concept diagram, not a screenshot.</desc>
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfaf6"/><stop offset="1" stop-color="#eeeae1"/></linearGradient>
+ <linearGradient id="roof" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#d9ba9e"/><stop offset="1" stop-color="#b7a18c"/></linearGradient>
+ <linearGradient id="pine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6b9aa"/><stop offset="1" stop-color="#729389"/></linearGradient>
+ <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#e3e1d8"/><stop offset="1" stop-color="#cacfc5"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#678b82" stroke-width="1.8"/></marker>
+</defs>
+<rect width="1440" height="620" rx="24" fill="url(#paper)"/>
+<g stroke="#d6d6cc" stroke-width="1" opacity=".7">
+ <path d="M0 505H1440M0 565H1440M80 0V620M160 0V620M240 0V620M320 0V620M400 0V620M480 0V620M560 0V620M640 0V620M720 0V620M800 0V620M880 0V620M960 0V620M1040 0V620M1120 0V620M1200 0V620M1280 0V620M1360 0V620" opacity=".24"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#283b39">
+ <text x="78" y="73" font-size="19" font-weight="700" letter-spacing="5" fill="#64867e">SCENELOOP / SHOWCASE</text>
+ <text x="77" y="130" font-size="47" font-weight="700" letter-spacing="-.5">从想法，到可持续演进的三维世界</text>
+ <text x="79" y="171" font-size="19" fill="#677876" letter-spacing="1.4">Model-agnostic · Real Blender scenes · Evidence-led refinement</text>
+</g>
+<g transform="translate(90 232)" fill="none" stroke="#9eaaa2" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+ <path d="M20 242L171 186L349 235L194 300Z" fill="#e4e6df" stroke="#b7c2b8" stroke-width="1.2"/>
+ <path d="M97 151L190 96L300 146L208 202Z"/><path d="M97 151V240L208 290V202M300 146V231L208 290M190 96V181M97 151L190 181L300 146"/>
+ <path d="M190 181V270M142 170V261M258 175V261"/>
+ <path d="M132 236L205 260L270 236M150 249L205 270L255 251" opacity=".7"/>
+ <path d="M91 300L205 340L320 303M110 296L205 329L300 296"/>
+ <path d="M340 156l36-65 36 65h-16l27 39h-95l28-39Z" fill="#e2eae3" stroke="#9cad9f"/>
+ <path d="M364 195v79" stroke="#a39d8f"/>
+ <path d="M26 207l28-53 28 53H70l20 32H16l20-32Z" fill="#e5eae6"/><path d="M53 240v38"/>
+ <path d="M52 239L190 182M53 240L205 293M97 151L300 231" stroke-dasharray="5 8" opacity=".55"/>
+</g>
+<path d="M566 345C617 345 615 450 681 450" fill="none" stroke="#688b82" stroke-width="3.5" marker-end="url(#arrow)" stroke-linecap="round"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#657c75"><text x="596" y="317" font-size="16" font-weight="700" letter-spacing="2">ITERATE</text><text x="595" y="340" font-size="15">Observe · Edit · Review</text></g>
+<g transform="translate(760 225)" stroke-linejoin="round" stroke-linecap="round">
+ <path d="M3 300L185 225L475 274L270 374Z" fill="url(#ground)" stroke="#bbc6ba" stroke-width="2"/>
+ <path d="M140 128L278 42L435 128L304 197Z" fill="url(#roof)" stroke="#947f6e" stroke-width="2.2"/>
+ <path d="M140 128L304 197L304 211L140 144Z" fill="#bca18b" stroke="#8e7966" stroke-width="2"/>
+ <path d="M304 197L435 128L435 146L304 211Z" fill="#a88f7a" stroke="#8e7966" stroke-width="2"/>
+ <path d="M165 157V280M410 162V276M304 209V317" stroke="#8b705b" stroke-width="16"/>
+ <path d="M165 157L304 209L410 162" fill="none" stroke="#aa8668" stroke-width="9"/>
+ <path d="M170 217L309 270L405 223" fill="none" stroke="#bda38e" stroke-width="6"/>
+ <path d="M203 246L303 283L367 257L367 273L303 297L203 262Z" fill="#c0a38a" stroke="#8d7564" stroke-width="2"/>
+ <path d="M187 282L301 327L429 281L433 296L303 347L185 300Z" fill="#d9d3c4" stroke="#b0afa5" stroke-width="2"/>
+ <path d="M189 305L300 347L425 302L419 316L301 362L187 321Z" fill="#c9c4b8" stroke="#ada99e" stroke-width="2"/>
+ <path d="M309 346L345 361L409 334" fill="none" stroke="#b1aca0" stroke-width="3"/>
+ <path d="M47 224l42-79 42 79h-25l28 44H45l27-44Z" fill="url(#pine)" stroke="#6d9385" stroke-width="2"/>
+ <path d="M92 267v62" stroke="#917b63" stroke-width="12"/>
+ <path d="M449 189l29-55 32 55h-18l23 34h-78l23-34Z" fill="url(#pine)" stroke="#719488" stroke-width="2"/>
+ <path d="M478 220v70" stroke="#917b63" stroke-width="9"/>
+ <path d="M90 283L142 261M437 277L488 258" stroke="#b5bea9" stroke-width="3" fill="none"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#657c75" font-size="15">
+ <text x="95" y="585" font-weight="700" letter-spacing="1.8">01 / STRUCTURE</text>
+ <text x="764" y="585" font-weight="700" letter-spacing="1.8">02 / CONTINUOUS REFINEMENT</text>
+ <text x="1200" y="584" font-size="13">CONCEPT ART · NOT A RENDER</text>
+</g>
+</svg>
