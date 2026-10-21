@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 680" role="img" aria-labelledby="title desc">
+<title id="title">SceneLoop 专用三维 Agent Harness 架构示意</title>
+<desc id="desc">User intent flows to Director, Builder, Blender, observations and independent Judge. Working Scene, candidate revisions, checkpoints and evidence are maintained by the Harness.</desc>
+<defs>
+ <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#74948b" stroke-width="1.8"/></marker>
+ <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#faf9f5"/><stop offset="1" stop-color="#eef1eb"/></linearGradient>
+</defs>
+<rect width="1280" height="680" rx="20" fill="url(#p)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+ <text x="62" y="71" fill="#566f68" font-size="17" font-weight="700" letter-spacing="3.1">SCENELOOP / ARCHITECTURE</text>
+ <text x="62" y="120" fill="#263b37" font-size="34" font-weight="700">把三维创作的关键环节变成 Harness 内建能力</text>
+ <text x="62" y="152" fill="#77847e" font-size="16">可替换模型参与决策 · 真实 Blender 负责施工 · 独立评审读取产物证据</text>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+ <rect x="62" y="206" width="206" height="113" rx="16" fill="#e9ece6" stroke="#b9c8be" stroke-width="1.6"/>
+ <text x="165" y="253" font-size="16" fill="#6b7f74">USER INTENT</text>
+ <text x="165" y="283" font-size="23" font-weight="700" fill="#253d37">自然语言目标</text>
+ <rect x="335" y="206" width="206" height="113" rx="16" fill="#e6eee9" stroke="#8fb2a5" stroke-width="1.6"/>
+ <text x="438" y="253" font-size="16" fill="#5f8475">DIRECTOR</text>
+ <text x="438" y="283" font-size="23" font-weight="700" fill="#253d37">规划与委派</text>
+ <rect x="608" y="206" width="206" height="113" rx="16" fill="#e6eee9" stroke="#8fb2a5" stroke-width="1.6"/>
+ <text x="711" y="253" font-size="16" fill="#5f8475">BUILDER</text>
+ <text x="711" y="283" font-size="23" font-weight="700" fill="#253d37">施工与自检</text>
+ <rect x="881" y="206" width="337" height="113" rx="16" fill="#eae6e0" stroke="#c0ae9b" stroke-width="1.6"/>
+ <text x="1050" y="253" font-size="16" fill="#997b60">BLENDER TOOLS</text>
+ <text x="1050" y="283" font-size="23" font-weight="700" fill="#55443a">真实场景编辑与渲染</text>
+ <path d="M268 262H334M541 262H607M814 262H880" stroke="#74948b" stroke-width="3" fill="none" marker-end="url(#a)"/>
+ <path d="M1050 319V358H868V407" stroke="#74948b" stroke-width="2.4" fill="none" marker-end="url(#a)"/>
+ <rect x="732" y="410" width="277" height="108" rx="15" fill="#eff0ea" stroke="#abbfb3" stroke-width="1.6"/>
+ <text x="870" y="451" font-size="16" fill="#68847a">OBSERVATION</text>
+ <text x="870" y="485" font-size="22" fill="#253d37" font-weight="700">渲染 · 几何 · 回执</text>
+ <rect x="356" y="410" width="277" height="108" rx="15" fill="#edf0ed" stroke="#9fb9ab" stroke-width="1.6"/>
+ <text x="494" y="451" font-size="16" fill="#68847a">INDEPENDENT JUDGE</text>
+ <text x="494" y="485" font-size="22" fill="#253d37" font-weight="700">独立质量评审</text>
+ <path d="M732 462H634" stroke="#74948b" stroke-width="2.6" fill="none" marker-end="url(#a)"/>
+ <path d="M494 410V354H710V320" stroke="#74948b" stroke-width="2.5" stroke-dasharray="7 7" fill="none" marker-end="url(#a)"/>
+</g>
+<rect x="61" y="571" width="1157" height="63" rx="16" fill="#f0ede5" stroke="#d4cfbf"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#586e66" text-anchor="middle">
+ <text x="212" y="597" font-size="14" font-weight="700">WORKING SCENE</text><text x="212" y="617" font-size="14">正式工作版本</text>
+ <text x="490" y="597" font-size="14" font-weight="700">CANDIDATE</text><text x="490" y="617" font-size="14">隔离施工候选</text>
+ <text x="765" y="597" font-size="14" font-weight="700">CHECKPOINT</text><text x="765" y="617" font-size="14">版本回溯</text>
+ <text x="1047" y="597" font-size="14" font-weight="700">EVIDENCE</text><text x="1047" y="617" font-size="14">真实执行证据</text>
+</g>
+<path d="M343 585V620M630 585V620M900 585V620" stroke="#d1cec3"/>
+<text x="1220" y="665" text-anchor="end" fill="#88928a" font-family="Arial, Helvetica, sans-serif" font-size="12">Architecture illustration · not a runtime screenshot</text>
+</svg>
